@@ -12,7 +12,8 @@ const Middle = () => {
         <div className="image-row">
           {/* Image 1 */}
           <div className="image-container">
-            <img src="minar.png" alt="First Image" />
+          <img src="minar.png" alt="Minar" />
+
           </div>
 
           {/* Image 2 with Text */}
@@ -22,7 +23,9 @@ const Middle = () => {
               <li>C.R.I. Fluid Systems products cater to diverse segments such as: Chemical & Process, Power, Water & Waste Water, Oil & Gas, Pharma, Sugar & Distilleries.</li>
               <li>C.R.I. Fluid Systems products cater to diverse segments such as: Chemical & Process, Power, Water & Waste Water, Oil & Gas, Pharma, Sugar & Distilleries, Paper & Pulp.</li>
             </ul>
-            <img src="Award.png" alt="Second Image" className='Award' />
+         {/* eslint-disable-next-line jsx-a11y/img-redundant-alt*/}
+<img src="Award.png" alt="Second Image" className='Award' />
+
             <p>C.R.I. ranks high among the <b>NATIONAL ENERGY CONSERVATION AWARD 2018</b> world's fastest-growing fluid management solution providers with a wide global presence. C.R.I. offers Pumps, Motors, Valves.</p>
           </div>
         </div>
